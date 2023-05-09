@@ -1,0 +1,107 @@
+/* Main */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+article {
+    /* border: 2px solid black; */
+    padding: 2rem;
+}
+
+body {
+    background-color: beige;
+    color: black;
+
+}
+
+.all {
+    background: linear-gradient(beige, white, darkgreen);
+    height: 110vh;
+}
+
+/* Art */
+.title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.egg {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+}
+
+#egg-pic {
+    border: 2px dotted black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+/* Explanation */
+.title1 {
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.title2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+#title-pt1 {
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 500px;
+    height: 3rem;
+
+}
+
+#title-pt2 {
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 4rem;
+
+}
+
+/* First, Last and Email Form */
+.first-name-form {
+    display: flex;
+    justify-content: center;
+
+}
+
+#fname {
+    margin-right: 5px;
+
+}
+
+.email-form {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+
+.submit-button {
+    display: flex; 
+    margin-top: 10px;
+    justify-content: center;
+
+}
